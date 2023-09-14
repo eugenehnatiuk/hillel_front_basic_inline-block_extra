@@ -1,1 +1,8 @@
+@import url(../css/common.css);
 
+
+.conteiner{
+	width: 1200px;
+	margin: 0 auto;
+	font-family: Roboto, sans-serif;
+}
