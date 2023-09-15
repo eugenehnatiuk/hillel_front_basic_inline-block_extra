@@ -20,10 +20,6 @@ body {
   vertical-align: middle;
 }
 
-.main_menu_logo {
-  width: 44px;
-}
-
 .main_menu > ul {
   display: inline-block;
   font-size: 18px;
