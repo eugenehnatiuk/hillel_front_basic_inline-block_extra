@@ -1,6 +1,6 @@
 @import url(common.css);
-body{
-	background: #E7E7E7;;
+body {
+  background: #e7e7e7;
 }
 /* ____________________HEADER____________________ */
 
@@ -14,14 +14,14 @@ body{
 
 .main_menu {
   padding: 40px 0px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0px;
   color: #161616;
   vertical-align: middle;
 }
-.main_menu_logo{
-	display: inline-block;
-	width: 100px;
+.main_menu_logo {
+  display: inline-block;
+  width: 100px;
 }
 
 .main_menu > ul {
@@ -72,8 +72,107 @@ body{
 h2 {
   text-transform: uppercase;
   color: #161616;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
+  font-style: normal;
+  line-height: 40px;
   text-align: center;
+  margin-bottom: 63px;
 }
+.cards {
+  font-size: 0px;
+}
+.card {
+  display: inline-block;
+  width: 380px;
+  height: 402px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 16px;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.cards > .card:nth-child(3n + 1) {
+  margin-left: 0px;
+}
+
+.card_img {
+  width: 380px;
+  height: 168px;
+  margin-bottom: 15px;
+  border-radius: 16px 16px 0px 0px;
+}
+.card_img_x {
+	background: #ec5e0f;
+  width: 380px;
+  height: 168px;
+  margin-bottom: 15px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.card_content {
+  padding: 0px 25px 24px 25px;
+  font-size: 0px;
+}
+.card_content > p:nth-child(1),
+.card_content > p:nth-child(2) {
+  display: inline-block;
+  color: var(--Additional-text, #6e798c);
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 600;
+}
+.card_content > p:nth-child(1) {
+  text-align: left;
+  width: 165px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.card_content > p:nth-child(2) {
+  text-align: right;
+  width: 165px;
+  vertical-align: middle;
+}
+
+.card_content > h3 {
+  font-family: DM Serif Display;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.card_content > h3 + p {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 44px;
+}
+
+.link {
+  display: inline-block;
+  width: 330px;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 600;
+  color: #007ae9;
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #85d7ff;
+ }
+
+ .copyright{
+	padding: 40px 0px;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: #161616;
+	text-align: center;
+ }
+
