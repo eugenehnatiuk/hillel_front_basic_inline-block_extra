@@ -56,7 +56,7 @@ body {
 }
 
 .main_menu_list > li a.active {
-  color: #ec5e0f;
+  color: red;
   font-weight: bold;
 }
 /* .main_menu_list > li a:active {
@@ -162,12 +162,7 @@ h2 {
   color: #007ae9;
   text-decoration: none;
 }
-/* .link:link{
-	color: #007ae9;
-} */
-/* .link:visited{
-	color:  #900060;
-} */
+
 
 /* __________________FOOTER____________________ */
 
